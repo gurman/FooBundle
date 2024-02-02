@@ -1,0 +1,5 @@
+services:
+  foobundle.console.command.hello:
+    class: Gurman\FooBundle\Command\FooHelloCommand
+    tags:
+      - { name: console.command }
